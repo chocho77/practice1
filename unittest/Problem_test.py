@@ -19,6 +19,10 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(sub(4, 2), 2)
         self.assertEqual(multiply(2, 3), 6)
         self.assertEqual(car._model, "")
+    
+    def test_car_test(self):
+        car = Car()
+        self.assertEqual(car._model, "")
 
 
 if __name__ == '__main__':
