@@ -11,6 +11,13 @@ def slice_string_demo_one() -> None:
     full_name = f"{first_name} {middle_name} {last_name}"
     print(len(full_name))
 
+def reverse_string_demo_one() -> None:
+    name = "Chavdar Ventsislavov Momchilov"
+    print(name)
+    print(name[-1::-1])
+
 
 if __name__ == '__main__':
     slice_string_demo_one()
+    reverse_string_demo_one()
+
