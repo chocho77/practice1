@@ -53,6 +53,23 @@ def solution_seven() -> None:
     x = StringMethods.strip_method(txt,"#")
     print(x)
 
+def solution_eight() -> None:
+    txt = "@@@@@@@@Ivan"
+    print(txt)
+    x = StringMethods.lstrip_method(txt,"@")
+    print(x)
+
+def solution_nine() -> None:
+    txt = "Ivan@@@@@"
+    print(txt)
+    x = StringMethods.rstrip_method(txt,"@")
+    print(x)
+
+def solution_ten() -> None:
+    txt = "Hello, there !!! "
+    len_str = StringMethods.len_str_method(txt)
+    print(len_str)
+
 
 if __name__ == '__main__':
     #solution()
@@ -62,6 +79,9 @@ if __name__ == '__main__':
     #solution_four()
     #solution_five()
     #solution_six()
-    solution_seven()
+    #solution_seven()
+    #solution_eight()
+    #solution_nine()
+     solution_ten()
 
 

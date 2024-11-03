@@ -53,6 +53,35 @@ class StringMethods:
             _result = _entry_str.strip(entry_str_one)
             return _result
 
+    @staticmethod
+    def lstrip_method(entry_str:str, entry_str_one:str) -> str:
+        if entry_str_one == "None":
+            _entry_str = entry_str
+            _result = _entry_str.lstrip()
+            return _result
+        elif entry_str_one != "None":
+            _entry_str = entry_str
+            _result = _entry_str.lstrip(entry_str_one)
+            return _result
+
+    @staticmethod
+    def rstrip_method(entry_str:str, entry_str_one:str) -> str:
+        if entry_str_one == "None":
+            _entry_str = entry_str
+            _result = _entry_str.rstrip()
+            return _result
+        elif entry_str_one != "None":
+            _entry_str = entry_str
+            _result = _entry_str.rstrip(entry_str_one)
+            return _result
+
+    @staticmethod
+    def len_str_method(entry_str:str) -> int:
+        _entry_str = entry_str
+        _result = len(_entry_str)
+        return _result
+
+
 
 
 
