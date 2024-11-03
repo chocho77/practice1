@@ -76,6 +76,11 @@ def solution_check() -> None:
     if result:
         print('Symbol "," is present in string.')
 
+def solution_split_str() -> None:
+    txt = "Hello, World!"
+    result = StringMethods.split_method(txt)
+    print(result)
+
 
 if __name__ == '__main__':
     solution()
@@ -90,5 +95,7 @@ if __name__ == '__main__':
     solution_nine()
     solution_ten()
     solution_check()
+    solution_split_str()
+
 
 

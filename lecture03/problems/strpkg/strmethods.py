@@ -1,3 +1,6 @@
+from typing import List
+
+
 class StringMethods:
     @staticmethod
     def capitalize_method(entry_str:str) -> str:
@@ -86,6 +89,15 @@ class StringMethods:
         _entry_str = entry_str
         _result = check_str in _entry_str
         return _result
+
+    @staticmethod
+    def split_method(entry_str:str) -> List:
+        _entry_str = entry_str
+        _result = _entry_str.split()
+        return _result
+
+
+
 
 
 
