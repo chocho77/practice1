@@ -3,6 +3,8 @@ def solution() -> None:
     result = txt.split("o") # split string by symbol "o"
     print(result)
     print(txt.startswith("H"))
+    print(txt.endswith("d"))
+    print(txt.endswith("@"))
 
 
 if __name__ == '__main__':
