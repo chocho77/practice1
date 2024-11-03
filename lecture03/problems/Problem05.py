@@ -30,6 +30,11 @@ def solution_five() -> None:
     x = StringMethods.endswith_method(txt,".")
     print(x)
 
+def solution_six() -> None:
+    txt = "H\te\tl\tl\to"
+    x = StringMethods.expandtabs_method(txt,10)
+    print(x)
+
 
 if __name__ == '__main__':
     solution()
@@ -38,5 +43,6 @@ if __name__ == '__main__':
     solution_three()
     solution_four()
     solution_five()
+    solution_six()
 
 

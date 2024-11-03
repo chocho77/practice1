@@ -36,6 +36,15 @@ class StringMethods:
         _result = _entry_str.endswith(ends_with)
         return _result
 
+    @staticmethod
+    def expandtabs_method(entry_str:str, expand:int) -> str:
+        _entry_str = entry_str
+        _result = _entry_str.expandtabs(expand)
+        return _result
+
+
+
+
 
 
 
