@@ -70,18 +70,25 @@ def solution_ten() -> None:
     len_str = StringMethods.len_str_method(txt)
     print(len_str)
 
+def solution_check() -> None:
+    txt = "Hello, there !"
+    result = StringMethods.in_operator_method(txt,",")
+    if result:
+        print('Symbol "," is present in string.')
+
 
 if __name__ == '__main__':
-    #solution()
-    #solution_one()
-    #solution_two()
-    #solution_three()
-    #solution_four()
-    #solution_five()
-    #solution_six()
-    #solution_seven()
-    #solution_eight()
-    #solution_nine()
-     solution_ten()
+    solution()
+    solution_one()
+    solution_two()
+    solution_three()
+    solution_four()
+    solution_five()
+    solution_six()
+    solution_seven()
+    solution_check()
+    solution_nine()
+    solution_ten()
+    solution_check()
 
 

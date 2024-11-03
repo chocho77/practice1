@@ -81,6 +81,14 @@ class StringMethods:
         _result = len(_entry_str)
         return _result
 
+    @staticmethod
+    def in_operator_method(entry_str:str, check_str:str) -> bool:
+        _entry_str = entry_str
+        _result = check_str in _entry_str
+        return _result
+
+
+
 
 
 
