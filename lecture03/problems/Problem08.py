@@ -16,6 +16,7 @@ def solution_three() -> None:
     filename = "hello.py"
     print(filename.endswith(".java"))
     print(filename.index("py"))
+    print(filename.find("py"))
     print(filename.startswith("word"))
 
 
