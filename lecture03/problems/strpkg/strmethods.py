@@ -42,6 +42,18 @@ class StringMethods:
         _result = _entry_str.expandtabs(expand)
         return _result
 
+    @staticmethod
+    def strip_method(entry_str:str, entry_str_one:str) -> str:
+        if entry_str_one == "None":
+            _entry_str = entry_str
+            _result = _entry_str.strip()
+            return _result
+        elif entry_str_one != "None":
+            _entry_str = entry_str
+            _result = _entry_str.strip(entry_str_one)
+            return _result
+
+
 
 
 

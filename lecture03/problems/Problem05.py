@@ -35,14 +35,33 @@ def solution_six() -> None:
     x = StringMethods.expandtabs_method(txt,10)
     print(x)
 
+def solution_seven() -> None:
+    txt = "   Hello    there!   "
+    print(txt)
+    x = StringMethods.strip_method(txt, "None")
+    print(x)
+    txt = "\t\n Hello"
+    print(txt)
+    x = StringMethods.strip_method(txt, "None")
+    print(x)
+    txt = "@@@@@@@@@@@@@Ivan"
+    print(txt)
+    x = StringMethods.strip_method(txt, "@")
+    print(x)
+    txt = "#############Ivan##########"
+    print(txt)
+    x = StringMethods.strip_method(txt,"#")
+    print(x)
+
 
 if __name__ == '__main__':
-    solution()
-    solution_one()
-    solution_two()
-    solution_three()
-    solution_four()
-    solution_five()
-    solution_six()
+    #solution()
+    #solution_one()
+    #solution_two()
+    #solution_three()
+    #solution_four()
+    #solution_five()
+    #solution_six()
+    solution_seven()
 
 
