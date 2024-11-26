@@ -1,1 +1,1 @@
-print("pkg_inner is initialized.")
+MY_NAME = "Chavdar"
