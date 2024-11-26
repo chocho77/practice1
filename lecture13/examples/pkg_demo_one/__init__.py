@@ -1,0 +1,1 @@
+print("pkg_demo_one is initialized.")
